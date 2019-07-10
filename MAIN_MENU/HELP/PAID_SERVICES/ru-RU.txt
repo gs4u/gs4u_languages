@@ -1,0 +1,3 @@
+PREMIUM_POINTS="Премиум очки"
+
+YOUR_ADVERTISING_ON_OUR_SITE="Ваша реклама на нашем сайте"

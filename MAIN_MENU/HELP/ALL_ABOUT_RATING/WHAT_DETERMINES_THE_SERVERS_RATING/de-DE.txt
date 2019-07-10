@@ -1,0 +1,8 @@
+Für jeden Server werden ständig Punkte gezählt. Aus diesen Punkten wird das Rating berechnet.
+Es gibt verschiedene Arten von Punkten, die die Bewertung beeinflussen:
+
+Punkte für das Teilen in sozialen Netzwerken - Auf der Seite mit detaillierten Informationen zum Server können Sie auf die Symbole für soziale Netzwerke klicken und einen Link zum Server-Seite in den vorgeschlagenen sozialen Netzwerken teilen. Das Monitoring zählt die Anzahl solcher Reposts und berechnet die Punkte dafür. Somit teilen Sie die Server-Seite mit Ihren Freunden und erhöhen gleichzeitig die Bewertung dieses Servers.
+Punkte für die Beschreibung des Servers - Wenn Sie Ihrem Server eine Beschreibung hinzufügen, erhalten Sie zusätzliche Punkte!
+Punkte für den Besuch der Server-Seite - jeder einzelne Besucher bringt dem Server Punkte. Für den Besuch der Server-Seite wird die größte Anzahl an Punkten vergeben. Daher ist es wünschenswert, einen Link zur Server-Seite mit Spielern und Freunden zu teilen.
+Punkte für Platzieren von Server-Bannern auf anderen Seiten - Wenn der Server über eine Website verfügt, platzieren Sie da die Banner mit Server-Informationen. Jeder Besucher, der ein solches Banner betrachtet, bringt Ihrem Server zusätzliche Punkte.
+Premium-Punkte - können nur gekauft werden. Der Server mit Premium-Punkten ist immer höher als andere Server ohne Premium-Punkte. Das heißt, egal wie viele "kostenlose" Punkte der Server hat, er wird immer nach dem Server mit Premium-Punkten aufgelistet.

@@ -1,0 +1,13 @@
+1. If monitoring says that your server is off (Offline), then most likely in the settings you need to change the "enable-query" parameter like this:
+
+enable-query=true
+
+If this parameter is not set so, then your server simply refuses itself from monitoring requests.
+
+If this parameter you can not find then to the end of the file server.properties add
+
+enable-query=true
+
+2. Minecraft servers can have a Query port that is different from the port for connecting to the server. If monitoring says that the server is off, but you are sure that the server is running and "enable-query" you have already configured, you need to look for the Query port and enter it when adding to monitoring.
+
+3. If you do not find query.port in the config, then try the default 25565

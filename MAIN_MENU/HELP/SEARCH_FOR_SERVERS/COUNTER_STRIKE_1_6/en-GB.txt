@@ -1,0 +1,50 @@
+Zombie Plague Mod and Zombie Escape Mod
+Zombie Plague is a Counter-Strike server side modification, developed as an AMX Mod X plugin, which completely revamps the gameplay, turning the game into an intense "Humans vs Zombies" survival experience.
+Usually servers with this mod are using maps whose name starts with "zm_":
+Counter-Strike 1.6 Zombie Plague Mod servers
+Servers with the Zombie Escape mod are using maps whose names begin on "ze_":
+Counter-Strike 1.6 Zombie Escape Mod servers
+
+Deathrun
+Counter-terrorists are running and trying to survive, the terrorists are doing everything to prevent the counter-terrorists from reaching the finish line alive. You know, there are such shows in which people run across the obstacle course and they are beaten from the walls than they fall into the mud. That's the same thing only in Counter-Strike. Usually, one terrorist monitors the traps on the obstacle course and activates them so that the counter terrorist does not reach the finish line.
+Servers with this mod usually use maps starting with "deathrun_":
+Counter-Strike 1.6 deathrun servers
+
+GunGame
+This mod is interesting for those who want to play with all weapons. After each kill, you get a new weapon. Although you play as a team, everyone wants to earn more kills, and the team game in this case is usually not conducted. Rather, everyone plays for themselves. When you've killed enough opponents to play all kinds of weapons, you get only  a knife. The last kill must be done with a knife. The one who does this first won.
+Servers with the GunGame mod usually use maps whose names begin with "gg_":
+Counter-Strike 1.6 GunGame servers
+
+JailBreak
+Some play for the guards, others for the prisoners. Prisoners want to escape in any way, even through the corpses of guards, which is not so easy, as guards, unlike prisoners, are armed.
+Servers with JailBreak mode usually use maps whose name starts with "jail_":
+Counter-Strike 1.6 JailBreak servers
+
+Warcraft 3
+If you played the strategy "Warcraft 3", then you can probably imagine what kind of mod that is. In fact, this mod is not simple. It requires the study of available heroes, as well as their skills / abilities. But if you understand everything, it's interesting to play.
+Servers with the Warcraft 3 mod usually use in the name "war3":
+Counter-Strike 1.6 серверы Warcraft 3
+
+Surf
+Do surfing right in Counter-Strike. In this mode, the most important thing is to finish first. Such servers, of course, use maps specially created for surfing.
+The name of such maps begins with "surf_":
+Counter-Strike 1.6 surf servers
+
+Hide and Seek
+Counter-terrorists must find and catch up with terrorists. There is no weapon in this mode. Counter-terrorists have only a knife, and terrorists have three grenades: two flash and one smoke, which freezes. 
+To make it interesting to play, special maps are needed, the name of which begins on "hns_":
+Counter-Strike 1.6 Hide and Seek servers
+
+Base Builder
+Counter-terrorists, in the time allotted to them, are building, on the site designated for this, a base for defense against zombies. Zombies are terrorists who, until the end of construction, can only watch, from their spa, how the construction is going. When the construction time ends, the zombies are released and the bases of counter-terrorists are stormed. If zombies are killed, he is reborn on his spawn. If a counter-terrorist dies, he waits until the end of the round. If the counter-terrorists will survive until the end of the round, then they will win.
+Such servers use maps whose name begins with "bb_":
+Counter-Strike 1.6 Base Builder servers
+
+BunnyHop
+BunnyHop is a movement by jumping. The speed of movement in this way is higher than with a simple run. Therefore, many are trying to learn this technique. If you also want to master this technique, then you can train on servers that use maps in the names of which there is "bhop":
+Counter-Strike 1.6 BunnyHop servers
+
+Knife
+For those who want to practice at the knives, the maps "35hp" or "1hp" will be interesting. There are several types of these cards for fighting on knives, so you just need to search for "35hp" or "1hp":
+Counter-Strike 1.6 servers with 35hp maps
+Counter-Strike 1.6 servers with 1hp maps

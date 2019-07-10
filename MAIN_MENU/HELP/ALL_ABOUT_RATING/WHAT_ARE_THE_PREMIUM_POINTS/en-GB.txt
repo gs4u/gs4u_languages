@@ -1,0 +1,22 @@
+These are paid points of the rating, which give a big advantage. For example, if one server has 1000 "free" points while another has 10 "free" and 1 paid (Premium points), then the second server has a higher position than the first one. In this case, "free" points are not considered at all.
+
+This means that if only one server has Premium points, this server will take first place in the server lists.
+
+This is a great way to popularize your server and attract players.
+
+You can always buy Premium points for your server. To do this, go to your server page and click on the "Premium points:" in the "Rating" section on the right.
+A dialog opens where you can see the current Premium points and buy new ones.
+
+The validity of the Premium points is limited in time. At the time of writing, premium putties are valid for 30 days.
+
+Why buy more than 1?
+If it's important for you to be in first position, then your server should have at least one Premium point more than the rest of the servers.
+
+All servers with Premium points are sorted by the number of valid Premium points in descending order.
+
+In case two servers have the same number of premium points, "free" points are also compared.
+
+Master server
+In our master servers, which output a list of servers for client games, sorting is the same as in all lists.
+
+ATTENTION! Premium points are valid only for 30 days. Then they expires.

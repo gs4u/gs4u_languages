@@ -1,0 +1,4 @@
+If, when you try to add a server, you receive a message that the server is not working, try changing the settings in the following:
+reportingIP = "127.0.0.1";
+
+This works on non cd servers

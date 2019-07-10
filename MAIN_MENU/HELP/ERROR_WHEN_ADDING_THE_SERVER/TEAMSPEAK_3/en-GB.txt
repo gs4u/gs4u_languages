@@ -1,0 +1,31 @@
+If you are trying to add your server and receive a message that the monitoring cannot establish a connection with your server, but you are sure that your server is working, then try the following:
+
+You must specify not only the port to connect to your server, but also the port to request information about the server(Query port). This is usually port 10011.
+If you specify the correct QueryPort, but still receive an error message when adding, then most likely you need to configure the permissions for the Guest group, namely, 
+allow the following permissions:
+Virtual server
+Information 
+b_virtualserver_info_view
+b_virtualserver_chanel_list
+b_virtualserver_client_list
+Group
+Information
+b_virtualserver_servergroup_list
+b_virtualserver_chanelgroup_list
+Briefly about how to configure permissions via ServerQuery:
+
+If you do not have the "Login and Password" data for ServerQuery:
+Run the client. You must have administrator rights.
+Open the "Tools" menu and select "Login ServerQuery" a dialog will appear in order to create a login and password to log in to the server through ServerQuery.
+When there is login information via ServerQuery, we open the terminal and connect via telnet to the server (here is IP of our server 127.0.0.1, port for connection is 9987,  Query port is 10011, login for ServerQuery is "username", password is "password")
+telnet 127.0.0.1 10011
+use port=9987
+Answer: error id=0 msg=ok, it means everything is OK
+login username password
+Answer: error id=0 msg=ok, it means everything is OK
+use sid=1
+servergroupaddperm sgid=8 permsid=b_virtualserver_info_view permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_channel_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_client_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_servergroup_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_channelgroup_list permvalue=100 permnegated=0 permskip=0

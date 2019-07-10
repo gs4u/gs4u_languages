@@ -1,0 +1,31 @@
+Если вы пытаетесь добавить ваш сервер и получаете сообщение о том, что мониторингу не удаётся установить соединение с вашим сервером, но вы уверены, что ваш сервер работает, то попробуйте следующее:
+
+Вы должны указать не только порт для подключения к вашему серверу, а так же порт для запроса информации о сервере. Обычно это порт 10011.
+Если вы указываете правильный QueryPort, но всё равно получаете сообщение об ошибке при добавлении, то скорее всего вам нужно настроить права для группы "Гость" или "Guest"
+а именно разрешить следующие права:
+Virtual server
+Information 
+b_virtualserver_info_view
+b_virtualserver_chanel_list
+b_virtualserver_client_list
+Group
+Information
+b_virtualserver_servergroup_list
+b_virtualserver_chanelgroup_list
+Коротко о том, как настроить права через ServerQuery:
+
+Если у вас нет данных "Логин и пароль" для ServerQuery
+Запускаем клиент. У вас должны быть права администратора.
+Открываем меню "Инструменты" и выбираем "Вход ServerQuery" появится диалог для того чтобы создать логин и пароль для входа на сервер через ServerQuery.
+Когда данные есть открываем терминал и через telnet подключаемся к серверу (в данных командах IP нашего сервера 127.0.0.1, порт для подключения 9987, порт Query 10011, логин для ServerQuery username, пароль password)
+telnet 127.0.0.1 10011
+use port=9987
+Ответ: error id=0 msg=ok, значит всё хорошо
+login username password
+Ответ: error id=0 msg=ok, значит всё хорошо
+use sid=1
+servergroupaddperm sgid=8 permsid=b_virtualserver_info_view permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_channel_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_client_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_servergroup_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_channelgroup_list permvalue=100 permnegated=0 permskip=0

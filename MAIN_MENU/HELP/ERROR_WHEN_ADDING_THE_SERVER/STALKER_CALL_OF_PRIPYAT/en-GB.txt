@@ -1,0 +1,14 @@
+If you can not add the "S.T.A.L.K.E.R. Call of Pripyat" server to the monitoring, it's likely that you have not configured some ports.
+
+Usually ports are configured like this:
+portsv 5446
+potrgs 5445
+portcl 5447
+If you only have one server on the same IP, then specify these ports.
+
+Now you are using port 5446 and QueryPort 5445. These ports need to be used for adding to monitoring.
+
+If you've configured the first port yourself and it's not 5446, just add or subtract 1 and use the GameSpy port.
+For example, you configured portsv port 7777. Then you need to configure the server port potrgs 7776 and portcl 7778. The most important thing is that all ports are different and not used by other programs.
+
+And of course, all these ports must be open in the firewall and in the router.
