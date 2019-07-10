@@ -81,7 +81,7 @@
 | Portuguese Brazil | pt-BR |
 | Romanian | ro-RO |
 | Russian | ru-RU |
-| Serbian Cyrillic |
+| Serbian Cyrillic | sr-RS |
 | Serbian Latin | sr-YU |
 | Sinhala | si-LK |
 | Slovak | sk-SK |
