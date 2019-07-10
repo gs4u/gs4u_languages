@@ -1,0 +1,16 @@
+Wenn Sie Ihren Server nicht mit dem Hauptport hinzufügen können, müssen Sie in den Servereinstellungen den Query-Port Ihres Servers suchen. Geben Sie dann beim Hinzufügen zu unserer Liste den zweiten "Query" -Port an.
+
+Um den Query-Port für Ihren Server zu finden, müssen Sie die Datei "Start_server_parameters.ini" suchen. In dieser Datei auf der Suche nach dem Abschnitt
+
+[Networking]
+hier wird "ListenPort" angegeben
+
+Beispiel:
+
+...
+[Networking]
+BroadcastAddress = ...
+ListenPort = 12345
+...
+
+Dieser Port ist der Query-Port. Er muss beim Hinzufügen zum Monitoring als zweiter Port angegeben werden.

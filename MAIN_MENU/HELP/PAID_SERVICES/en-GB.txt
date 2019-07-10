@@ -1,0 +1,3 @@
+PREMIUM_POINTS="Premium points"
+
+YOUR_ADVERTISING_ON_OUR_SITE="Your advertising on our site"

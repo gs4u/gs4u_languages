@@ -1,0 +1,11 @@
+If you try to add a server, but get a message that your server is not on (Offline), and you are sure that the server is working, then most likely you do not enter the Query port.
+
+In such cases, you need to find out exactly what value of the "net_queryPort" setting is installed on your server. This port must also be specified when adding a server.
+
+For example, your IP 127.0.0.1 port is 27015 and you found out that "net_queryPort" is 27014.
+In the form of adding a server, you specify the following:
+Server Type (Game) *: Call Of Duty: Modern Warfare 3
+IP *: 127.0.0.1
+Port *: 27015
+GameSpy (Query) port: 27014
+Your E-Mail *: ...

@@ -1,0 +1,24 @@
+Das sind bezahlte Punkte des Ratings, die einen grossen Vorteil geben. Wenn zum Beispiel ein Server 1000 "kostenlose" Pukte hat, während ein anderer 10 "kostenlosen" und 1 bezahlter (Premium-Punkt) hat, dann hat der zweite Server eine höhere Position als der erste. In diesem Fall werden "kostenlose" Punktzahlen überhaupt nicht berücksichtigt.
+
+Das bedeutet, dass, wenn nur ein Server Premium-Punkte hat, dieser Server den ersten Platz in den Server-Listen einnehmen wird.
+
+Dies ist eine großartige Möglichkeit, Ihren Server zu popularisieren und Spieler anzulocken.
+
+Sie können jederzeit Premium-Punkte für Ihren Server kaufen. Um dies zu tun, gehen Sie auf Ihre Server-Seite und klicken Sie auf die "Premium-Punkte:" im Abschnitt "Rating" auf der rechten Seite.
+Es öffnet sich ein Dialog, in dem Sie die aktuellen Premium-Punkte sehen und neue kaufen können.
+
+Die Gültigkeit der Premium-Punkte ist zeitlich begrenzt. Zum Zeitpunkt der Erstellung dieses Leitfadens sind Premium-Puklte für 30 Tage gültig.
+
+ 
+
+Warum mehr als 1 kaufen?
+Wenn es für Sie wichtig ist, an der ersten Position zu sein, dann sollte Ihr Server mindestens einen Premium-Punkt mehr als der Rest der Server haben.
+
+Alle Server mit Premium-Punkten sind nach der Anzahl der gültigen Premium-Punkte in absteigender Reihenfolge sortiert.
+
+Für den Fall, dass zwei Server die gleiche Anzahl an Premium-Punkten haben, werden kostenlose Punkte auch verglichen.
+
+ 
+
+Master-Server
+In unseren Master-Servern, die eine Liste von Servern für Client-Spiele ausgeben, ist die Sortierung genau so wie in allen Listen.

@@ -1,0 +1,8 @@
+For each server constantly keeps track of points. For these points is calculated rating.
+There are several types of points that affect the rating:
+
+Points for share in social networks - on the page with detailed information about the server, you can click on the icons of social networks and share the link to the server on his page on the social networks of proposals. Monitoring Number of counts of sharess and the server calculates points for it. So you share a server you like with your friends at the same time raise the rating of the server.
+Points for the description of the server - if you add a description to your server, it will get additional points!
+Points for attendance server pages - each unique visitor brings points server. For Active Server Pages is the huge amount of accrued points. Therefore, it is desirable to share a link to the page server with players and friends. For example, to place banners with information about the server, clicking on which the user will get to a page with detailed Information about the server and the server will bring a lot of points for the ranking. And also please repost server pages on social networks, it attracts visitors to the page and the server brings extra points.
+Points for the location of the server's banner on other pages - if the server has a site, place where banners displaying information about the server. Each visitor browsing this banner to your server brings extra points.
+Premium Points - can only be obtained for a fee. Server with premium points is always superior to other servers without premium points. That is, no matter how much "free" points from the server, it will always be listed after a premium points server.

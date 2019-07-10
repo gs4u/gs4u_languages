@@ -1,0 +1,7 @@
+Servers with the game "Command and Conquer: Renegade" except the port for connection, use "GameSpy (Query) port".
+
+Therefore, to add a server, you need to enter not only the IP and the port, but also the "GameSpy (Query) port" of the server.
+
+"GameSpy (Query) port" can be found by contacting the owners of the servers that you want to add to the monitoring. If you are the owner of such a server, then the information should be searched in the configuration of your server.
+
+Standard Query-port: 25300, it is used on most servers.

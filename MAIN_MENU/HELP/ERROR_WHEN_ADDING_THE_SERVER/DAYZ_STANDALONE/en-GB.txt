@@ -1,0 +1,15 @@
+If you can not add your server with the main port, then you need to find in the server settings the Query port of your server. Then specify it by the second "Query" port when adding to our list.
+
+In order to find the Query port for your server, you need to find the file "Start_server_parameters.ini". In this file in search for the section
+
+[Networking]
+here will be specified "ListenPort"
+
+Example:
+
+...
+[Networking]
+BroadcastAddress = ...
+ListenPort = 12345
+...
+This port is the Query port. It must be specified as second port when adding to the monitoring.

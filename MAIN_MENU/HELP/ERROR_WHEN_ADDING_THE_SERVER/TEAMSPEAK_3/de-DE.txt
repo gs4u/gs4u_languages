@@ -1,0 +1,31 @@
+Wenn Sie versuchen, Ihren Server hinzuzufügen und erhalten eine Nachricht, dass die es keine Verbindung mit Ihrem Server möglich ist, Sie aber sicher sind, dass Ihr Server funktioniert, versuchen Sie Folgendes:
+
+Sie müssen nicht nur den Port für Client Verbindung angeben, sondern auch den Port, um Informationen über den Server anzufordern (Query port). Dies ist normalerweise Port 10011.
+Wenn Sie den richtigen QueryPort angeben, dennoch eine Fehlermeldung erhalten, müssen Sie höchstwahrscheinlich die Berechtigungen für die Gruppe "Guest" konfigurieren.
+Erlaube die folgenden Berechtigungen:
+Virtual server
+Information 
+b_virtualserver_info_view
+b_virtualserver_chanel_list
+b_virtualserver_client_list
+Group
+Information
+b_virtualserver_servergroup_list
+b_virtualserver_chanelgroup_list
+Kurz über das Konfigurieren von Berechtigungen über ServerQuery:
+
+Wenn Sie die Daten "Login and Password" für ServerQuery nicht haben:
+Starten Sie den Client. Sie müssen über Administratorrechte verfügen.
+Öffnen Sie das Menü "Extras" und wählen Sie "ServerQuery Login". Es wird ein Dialogfeld angezeigt, in dem Sie Anmeldedaten für die Anmeldung über ServerQuery erstellen können.
+Wenn Sie die Anmeldedaten für ServerQuery haben, öffnen Sie das Terminal und verbinden Sie sich per Telnet mit dem Server (hier ist die IP unseres Servers 127.0.0.1, Port für Verbindung ist 9987, Query Port ist 10011, Login für ServerQuery ist "username", Passwort ist "password")
+telnet 127.0.0.1 10011
+use port=9987
+Antwort: error id=0 msg=ok, es bedeutet, dass alles in Ordnung ist
+login username password
+Antwort: error id=0 msg=ok, es bedeutet, dass alles in Ordnung ist
+use sid=1
+servergroupaddperm sgid=8 permsid=b_virtualserver_info_view permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_channel_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_client_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_servergroup_list permvalue=100 permnegated=0 permskip=0
+servergroupaddperm sgid=8 permsid=b_virtualserver_channelgroup_list permvalue=100 permnegated=0 permskip=0

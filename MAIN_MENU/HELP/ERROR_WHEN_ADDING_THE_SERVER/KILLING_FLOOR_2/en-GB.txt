@@ -1,0 +1,5 @@
+Killing Floor 2 servers are rarely configured so that Query Port is the same as the connection port for the game. You should carefully look in the server's configuration, which Query Port is using your server.
+
+If the port is standard, then most likely it's 27015. This is described in the documentation for the dedicated server for this game.
+
+If you can not add the server to the server port, look in the server configuration for QueryPort = XXXXX

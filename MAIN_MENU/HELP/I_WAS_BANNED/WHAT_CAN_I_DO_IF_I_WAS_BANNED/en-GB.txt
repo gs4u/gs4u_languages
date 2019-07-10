@@ -1,0 +1,5 @@
+Dear user, please note that the administration of monitoring GS4u.net not administer servers that you see in the monitoring. Monitoring-administration has no influence on the administration of any server. Our service only displays information about added servers. In order to solve your problems, you will need to contact the administration of the server where you play. 
+
+Try searching for the address of a site on a server monitoring page in the "Settings". Often you can find there site of administration, unless they have a website. 
+Also, there may be you find other ways of communication with the administration, for example Skype and ICQ. 
+If you do not find it, try looking for a site in the search engine server.
