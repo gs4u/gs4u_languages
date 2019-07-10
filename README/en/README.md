@@ -2,7 +2,7 @@ How to translate?
 ---------------------
 First you need to create a fork, your copy of the repository. In this copy, you can add a new language or edit incorrect translations.
 
-После того как вы сделали изменения, вы можете предложить принять их в главную версию репозитория(New pull request).
+After you have made the changes, you can offer to accept them in the main version of the repository (New pull request).
 
 What to translate in the first place, and what is not necessary?
 ---------------------
@@ -81,7 +81,7 @@ List of possible languages and abbreviation for each to be used
 | Portuguese Brazil | pt-BR |
 | Romanian | ro-RO |
 | Russian | ru-RU |
-| Serbian Cyrillic |
+| Serbian Cyrillic | sr-RS |
 | Serbian Latin | sr-YU |
 | Sinhala | si-LK |
 | Slovak | sk-SK |
