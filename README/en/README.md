@@ -9,6 +9,7 @@ What to translate in the first place, and what is not necessary?
 Be sure to translate the following files (in order of importance):
 * /MAIN_MENU/en-GB.ini
 * /MAIN_MENU/PROFILE/en-GB.ini
+* /HIDDEN_MENU/en-GB.ini
 * /OVERRIDES/en-GB.ini
 * /en-GB.ini
 * /MODULES/en-GB.ini
