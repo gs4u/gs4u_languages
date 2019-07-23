@@ -9,6 +9,7 @@
 Обязательно нужно перевести следующие файлы(по степени важности):
 * /MAIN_MENU/en-GB.ini
 * /MAIN_MENU/PROFILE/en-GB.ini
+* /HIDDEN_MENU/en-GB.ini
 * /OVERRIDES/en-GB.ini
 * /en-GB.ini
 * /MODULES/en-GB.ini
