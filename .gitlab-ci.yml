@@ -8,13 +8,13 @@ stages:
   script:
     - mkdir site
     - mv $LANG.ini site/$LANG.com_gs4uport.ini
-    - mv $LANG.geo.ini site/$LANG.com_gs4uport.geo.ini
+    - mv $LANG.geo.ini site/$LANG.com_gs4uport_geo.ini
   artifacts:
     name: "com_gs4u_$LANG-$CI_COMMIT_REF_NAME"
     paths:
       - $CI_PROJECT_DIR/com_gs4u_$LANG.xml
       - $CI_PROJECT_DIR/site/$LANG.com_gs4uport.ini
-      - $CI_PROJECT_DIR/site/$LANG.com_gs4uport.geo.ini
+      - $CI_PROJECT_DIR/site/$LANG.com_gs4uport_geo.ini
 
 uk-UA:
   extends: .releaser_tpl
